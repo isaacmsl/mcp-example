@@ -1,0 +1,5 @@
+services:
+  mcp-example:
+    build:
+      context: .
+    container_name: mcp-example

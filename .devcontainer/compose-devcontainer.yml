@@ -1,0 +1,4 @@
+services:
+  mcp-example:
+    volumes:
+      - .:/app

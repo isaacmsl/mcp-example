@@ -1,0 +1,22 @@
+{
+	"name": "MCP Example",
+	"dockerComposeFile": [
+		"../compose.yml",
+		"./compose-devcontainer.yml"
+	],
+	"service": "mcp-example",
+	"workspaceFolder": "/app",
+	"overrideCommand": true,
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/dhoeric/features/hadolint:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
